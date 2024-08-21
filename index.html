@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio - LSP</title>
+ <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=J3nZHWgT1e7m&format=png&color=000000" type="image/x-icon">
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Portfolio</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#contact"><button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button></a>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- home section starts  -->
+  <section class="home pt-5 pb-5" id="home">
+    <div class="row justify-content-evenly align-middle">
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h2 style="color: #3f396d">
+          Hello! I Am <br /><span class="c-orange">Lakshmi Srikanth Polavarapu</span>
+        </h2>
+        <p class="text-muted">
+          I am a highly motivated and skilled 
+          Full-Stack Developer with a strong 
+          foundation in web development, 
+          particularly in the MERN stack.
+           As a 2024 graduate with a B.Tech degree in Electrical and Electronics Engineering (EEE) and a CGPA of 7.69, I have completed certifications in Java Full Stack development, Cloud Computing, and Java coding. I bring proficiency in Java, HTML, CSS, JavaScript, and Node.js, along with experience in projects like Fare Finder and personal portfolio development. My hands-on experience includes building responsive and interactive web applications, and I am passionate about starting a career in the software field, eager to apply my skills in either software roles
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          Hire Me
+        </button>
+        <a href="" class="link ms-4 d-none">See My Work</a>
+      </div>
+      <div class="col-10 col-md-4 d-none d-md-block">
+        <img src="images/WhatsApp_Image_2023-06-29_at_12.10.53-removebg.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="service">
+    <div class="heading text-center">
+      <small>My Expertise</small>
+      <h3>
+        Provide Wide Range of <br />
+        Digital Services
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon1.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Web Design</h4>
+            <p class="text-muted">
+              "Innovative web designer dedicated to creating user-friendly and visually stunning websites that enhance online experiences."
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon2.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Web Development</h4>
+            <p class="text-muted">
+              "Skilled web developer proficient in building dynamic, high-performance websites using  latest technologies."
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon3.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Debugging</h4>
+            <p class="text-muted">
+              "Being the detective in a crime movie where you are also the murderer."
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- expertise section ends here -->
+
+  <!-- skill section starts -->
+  <section class="skill mt-5 py-5" id="about">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress html-css">
+                <span class="progress-value html-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">HTML & CSS</span>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress javascript">
+                <span class="progress-value javascript-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">JavaScript & ReactJs</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress php">
+                <span class="progress-value php-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">Java</span>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <div class="circular-progress reactjs">
+                <span class="progress-value reactjs-progress">0%</span>
+              </div>
+              <br>
+              <span class="text">SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>My Skills</small>
+          <h3>Beautiful & Unique Digital Experiences</h3>
+          <p class="text-muted">
+            I am a certified Java Full Stack Developer, actively
+             upskilling in MERN stack development to expand my expertise.
+              Despite my background in Electrical and Electronics Engineering
+               (EEE), I've transitioned into software development, utilizing
+                my problem-solving skills to excel in this field. 
+                My portfolio showcases diverse projects, from Java-based
+                 applications to MERN stack solutions, highlighting my ability to build scalable applications with user-friendly interfaces and robust backends. My journey reflects a commitment to continuous learning and adapting to new technologies to create impactful software solutions.
+          </p>
+          <p class="text-muted">
+            "Download my resume to explore my full range of skills, experiences, and the impactful projects I have
+            worked on."
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- here download attribute is used for adding download functionality to button  -->
+            <a href="Lakshmi_Srikanth_Polavarapu_Resume_.pdf" download="SampleCV" style="text-decoration: none;color: #fff;">Download
+              CV</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section end here -->
+
+  <!-- portfolio section starts here -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading text-center pt-5">
+      <small>Creative Work</small>
+      <h3>Check My Portfolio</h3>
+    </div>
+
+    <div id="myBtnContainer" class="text-center mt-4">
+      <!-- here we will create custom attribute using data- for filtering -->
+      <button class="filter-item" data-filter="all">All</button>
+      <button class="filter-item" data-filter="game">Game</button>
+      <button class="filter-item" data-filter="webapp">Web App</button>
+      <button class="filter-item" data-filter="website">Website</button>
+      <button class="filter-item" data-filter="brand">Brand</button>
+    </div>
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/WhatsApp Image 2024-08-20 at 19.25.08_bd26f94f.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Coffee Website</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="https://srikanth-1711.github.io/moon-dollar/" class="link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0 " data-aos="fade-up">
+          <div class="card">
+            <img src="images/ff3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Fare Finder </h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="#" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/WhatsApp Image 2024-08-20 at 19.30.54_1aa67441.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Live Analog-Clock</h4>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill mb-2"></span><br />
+              <a href="https://srikanth-1711.github.io/analog-clock/" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly mt-4 px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/piceditor.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">PicEditor Website</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+              <a href="https://srikanth-1711.github.io/imageeditor/" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/tictactoe.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">TicTacToe Game</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+              <a href="#" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/lang-translator.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Lang Translator</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Web App</span><br />
+              <a href="#" class="read-more-btn link" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section ends here -->
+
+  <!-- testimonial section starts  -->
+  <section class="testimonial mt-5 pt-5" id="testimonial">
+    <div class="row justify-content-evenly">
+      <div class="col-md-4 col-10" data-aos="slide-right">
+        <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+        <div class="heading">
+          <small>Testimonials</small>
+          <h3>Happy Clients Feedback</h3>
+          <!-- here we will use carousel element from bootstrap -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Srikanth's expertise in web development is impressive. They quickly understood our requirements and
+                      executed the project flawlessly. The final product was exactly what we envisioned, delivered on
+                      time, and exceeded our expectations.
+                    </p>
+                    <h4>Kevin Andrew</h4>
+                    <small class="fs-6 text-muted">CEO of Company</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Working with Srikanth was a seamless experience. Their professionalism and clear communication made
+                      the entire process smooth. They kept us updated at every step and were always open to feedback,
+                      ensuring that the project met all our needs
+                    </p>
+                    <h4>Jay Singhaniya</h4>
+                    <small class="fs-6 text-muted">Employee</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Srikanth demonstrated exceptional problem-solving skills throughout our project. They provided
+                      innovative solutions to challenges we hadn't even anticipated, making our website more functional
+                      and user-friendly than we had imagined.
+                    </p>
+                    <h4>jao Shey</h4>
+                    <small class="fs-6 text-muted">Manager of Company</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="nextprev-btn rounded-pill prev-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <i class="bi bi-arrow-left-circle-fill prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="nextprev-btn rounded-pill next-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <i class="bi bi-arrow-right-circle-fill next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial ends here -->
+
+  <!-- blog section starts -->
+  <section class="blog mt-5 pb-5" id="blog">
+    <div class="heading text-center pt-5">
+      <small>Latest News</small>
+      <h3>Blog & Articles</h3>
+    </div>
+    <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+      <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+        <div class="card">
+          <img src="images/fff.jpg" class="card-img-top rounded-4" alt="..." />
+          <div class="card-body px-4">
+            <small>By Lakshmi Srikanth</small><span class="ms-3">June 2024</span>
+            <h4 class="card-title">
+              <a href="https://srikanth-1711.github.io/FantaLandingPage/" target="_blank">Fanta Landing Page</a>
+            </h4>
+            <p class="text-muted">
+              Developed a dynamic Fanta Landing page with Smoooth Animations
+              The site features a bold, eye-catching design with a bright orange color palette that reflects the signature Fanta flavor.</p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+        <div class="card">
+          <img src="images/form.png" class="card-img-top rounded-4" alt="..." />
+          <div class="card-body px-4">
+            <small>By Lakshmi Srikanth
+
+            </small>
+            <span class="ms-3">Aug 2024</span>
+            <h4 class="card-title">
+              <a href="">Form server-side validation</a>
+            </h4>
+            <p class="text-muted">
+              Implemented server-side form validation for a web application using Node.js and the express-validator
+              library.
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+        <div class="card">
+          <img src = "images/hhh.jpg" class="card-img-top rounded-3" alt="..." />
+          <div class="card-body px-4">
+            <small>By Lakshmi Srikanth
+
+            </small>
+            <span class="ms-3">
+              June 2024</span>
+            <h4 class="card-title">
+              <a href="">Personal Portfolio</a>
+            </h4>
+            <p class="text-muted">
+              Developed a responsive and dynamic personal portfolio website using React.js. </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- here we will make modals if Read more link is clicked the modal will popup -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/fff.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Lakshmi Srikanth</small><span class="text-muted ms-2">Mar 8,2023</span>
+                <h4 class="card-title mt-3">Fanta Landing Page</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-telegram"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">
+                  
+
+                  The Fanta Landing Page is a vibrant and visually 
+                  appealing website that captures the essence of the 
+                  brand's fun and refreshing image. The site features 
+                  a bold, eye-catching design with a bright orange color
+                   palette that reflects the signature Fanta flavor. The landing page is divided into multiple sections, starting with a striking header that prominently displays the Fanta logo, followed by engaging content that highlights the brand's products and flavor updates. Interactive elements, including images of Fanta bottles and fruits, enhance the user experience, while well-organized navigation allows easy access to different sections like Home, Products, Shop, and Contact. The page's design seamlessly blends creativity with functionality, making it an effective showcase for Fanta's brand identity.</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/form.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Lakshmi Srikanth</small><span class="text-muted ms-2 ms-md-0"> Aug 2024</span>
+                <h4 class="card-title mt-3">Form Server Side Valudation</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-telegram"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">Implemented server-side form validation for a web application using Node.js
+                  and the express-validator library. This approach ensures data integrity and security by validating
+                  user inputs before processing them. The validation rules cover a range of input types, including
+                  emails, passwords, and custom fields, with detailed error messages returned to the client for any
+                  invalid data. This method enhances the reliability of the application by preventing invalid or
+                  malicious data from being processed.</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img
+                  src="images/WhatsApp Image 2023-06-29 at 12.04.06.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Bharti Sahu</small><span class="text-muted ms-2 ms-md-0">June 1,2024</span>
+                <h4 class="card-title mt-3">Portfolio</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-telegram"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">Developed a responsive and dynamic personal portfolio website using React.js.
+                  The website features a clean, modern design and showcases my skills, projects, and experience. It
+                  includes interactive elements, smooth navigation, and optimized performance. Leveraged React
+                  components to create a modular and maintainable codebase, ensuring an efficient development process
+                  and easy future updates.</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog section ends here -->
+
+  <!-- contact section starts -->
+  <section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Get in Touch</small>
+      <h3>Any Questions? Feel Free to Contact</h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>Visakhapatnam(Andhra Pradesh), India </p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>+91 8179650120</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-send-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>lakshmisrikanthpolavarapu@gmail.com</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-globe-americas"></i>
+          </div>
+          <div class="col-11">
+            <p>@codingwithwolf</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <div class="contact-form">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+          </div>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends here -->
+
+  <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+  <button type="button" class="btn btn-floating btn-lg rounded-pill" id="btn-back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- footer section starts  -->
+  <footer class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+    <div class="link-group mt-5" data-aos="fade-up">
+      <a href="#home">Home</a>
+      <div class="vr"></div>
+      <a href="#about">About</a>
+      <div class="vr"></div>
+      <a href="#service">Service</a>
+      <div class="vr"></div>
+      <a href="#portfolio">Portfolio</a>
+      <div class="vr"></div>
+      <a href="#blog">Blog</a>
+      <div class="vr"></div>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-links mt-5" data-aos="fade-up">
+      <button href="" class="rounded-pill dribble">
+        <i class="bi bi-instagram"></i>
+      </button>
+      <button href="" class="rounded-pill whatsapp">
+        <i class="bi bi-whatsapp"></i>
+      </button>
+      <button href="" class="rounded-pill behance">
+        <i class="bi bi-telegram"></i>
+      </button>
+    </div>
+    <hr class="text-muted my-4" />
+
+    <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+  </footer>
+  <!-- footer section ends here -->
+
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
